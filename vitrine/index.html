@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вітрина</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<header class="header">
+    <h1>Вітрина товарів</h1>
+</header>
+
+<main class="main">
+    <section class="vitrina vitrina-1">
+        <h2>Електроніка</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT-waqbCxXT7ERHJMF08bxyPtVQ9ONzuv3p9aOOw6GStevvP0n_KIX5B3WJdV8BNHHgKJkfrckQYSCNbBWHwDQ3Rx8nlbbKmzdD91xaA763TU2ceeIt-iZpB4iWLL6Gq8qB_Z48Epw&usqp=CAc"
+                     alt="Телефон">
+                <p>Смартфон</p>
+            </div>
+            <div class="grid-item">
+                <img src="data:image/webp;base64,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"
+                     alt="Ноутбук">
+                <p>Ноутбук</p>
+            </div>
+            <div class="grid-item">
+                <img src="data:image/webp;base64,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"
+                     alt="Навушники">
+                <p>Навушники</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="vitrina vitrina-2">
+        <h2>Галерея мистецтва</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/200" alt="Малюнок 1" class="gallery-item">
+            <img src="https://via.placeholder.com/200" alt="Малюнок 2" class="gallery-item">
+            <img src="https://via.placeholder.com/200" alt="Малюнок 3" class="gallery-item">
+        </div>
+        <div class="lightbox">
+            <span class="close"></span>
+            <img class="lightbox-content" alt="Велике зображення">
+        </div>
+    </section>
+
+    <section class="vitrina vitrina-3">
+        <h2>Додати свій товар</h2>
+        <form id="add-product-form">
+            <input type="text" id="product-name" placeholder="Назва товару" required>
+            <input type="url" id="product-image" placeholder="URL зображення" required>
+            <button type="submit">Додати товар</button>
+        </form>
+        <div class="product-list">
+            <!--товари -->
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <p> Вітрина товарів.</p>
+</footer>
+</body>
+</html>
